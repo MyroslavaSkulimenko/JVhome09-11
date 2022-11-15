@@ -1,7 +1,7 @@
 public class DeLuxe extends HotelRoom{
     protected double fitnessCenter;
-    public DeLuxe(String roomName, MyDateTime startBooking, MyDateTime finishBooking) {
-        super(roomName, startBooking, finishBooking);
+    public DeLuxe(int roomNumber, String roomName, MyDateTime startBooking, MyDateTime finishBooking) {
+        super(roomNumber, roomName, startBooking, finishBooking);
     }
 
     @Override

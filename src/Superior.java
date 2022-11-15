@@ -1,7 +1,7 @@
 public class Superior extends HotelRoom{
     protected double fitnessCenter=60;
-    public Superior(String roomName, MyDateTime startBooking, MyDateTime finishBooking) {
-        super(roomName, startBooking, finishBooking);
+    public Superior(int roomNumber, String roomName, MyDateTime startBooking, MyDateTime finishBooking) {
+        super(roomNumber, roomName, startBooking, finishBooking);
     }
 
     @Override

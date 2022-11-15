@@ -1,17 +1,20 @@
 public class President  extends HotelRoom{
-    protected double fitnessCenter;
-    private String roomName="President";
-    public President(String roomName, MyDateTime startBooking, MyDateTime finishBooking) {
-        super(roomName, startBooking, finishBooking);
+    double fitnessCenter=0;
+    public President(int roomNumber, String roomName, MyDateTime startBooking, MyDateTime finishBooking) {
+        super(roomNumber, roomName, startBooking, finishBooking);
+
     }
+
 
     @Override
     public String toString() {
         return "President{" +
-                "roomName='" + roomName + '\'' +
+                "roomNumber=" + roomNumber +
+                ", roomName='" + roomName + '\'' +
                 ", startBooking=" + startBooking +
                 ", finishBooking=" + finishBooking +
                 ", fitnessCenter=" + fitnessCenter +
                 '}';
     }
 }
+

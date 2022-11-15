@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
 public class MyDateTime {
-        private int day;
-        private int month;
-        private int year;
+        private int day=0;
+        private int month=0;
+        private int year=0;
 
         public MyDateTime(int day, int month, int year) {
             this.day = day;

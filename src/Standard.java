@@ -1,7 +1,9 @@
 public class Standard extends HotelRoom{
     protected double fitnessCenter=70;
-    public Standard(String roomName, MyDateTime startBooking, MyDateTime finishBooking) {
-        super(roomName, startBooking, finishBooking);
+
+    public Standard(int roomNumber, String roomName, MyDateTime startBooking, MyDateTime finishBooking) {
+        super(roomNumber, roomName, startBooking, finishBooking);
+
     }
 
     @Override
